@@ -1,0 +1,111 @@
+# Last updated: 05 JUN 2025
+# For WordPress sites built with Oxygen & WooCommerce
+
+# Tracks only custom code (plugins, themes, & Oxygen exports/uploads)
+
+# Excludes files & directories for:
+# backup, cache, config, dependency, editor, logs, OS, remote, system, temp
+
+# Excludes WordPress core
+
+# ─────────────────────────────────────────────
+
+# Cache, logs, temp, and backup files
+*.log
+*.sql
+*.zip
+*.tar.gz
+*.bak
+*.tmp
+wp-content/cache/**
+wp-content/debug.log
+
+
+# Dependency directories
+node_modules/**
+vendor/**
+
+
+# System / editor / remote / OS files
+._*
+.apdisk
+.AppleDB
+.AppleDesktop
+.AppleDouble
+.com.apple.timemachine.donotpresent
+.DocumentRevisions-V100
+.DS_Store
+.fseventsd
+.idea/**
+.LSOverride
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.vscode/**
+Desktop.ini
+Network Trash Folder
+Temporary Items
+Thumbs.db
+
+# (Optional) Local by Flywheel / WP Engine config — ignore if Git repo is in site root
+sql/**
+conf/**
+logs/**
+local-site.json
+
+# ─────────────────────────────────────────────
+# WordPress | Oxygen & WooCommerce
+# ─────────────────────────────────────────────
+
+# Sensitive configuration files
+.env*
+.htaccess
+wp-config.php
+wp-config-local.php
+wp-config-production.php
+
+
+# WordPress core directories
+wp-admin/*
+wp-content/languages/*
+wp-content/plugins/*
+wp-content/themes/*
+wp-content/upgrade/*
+wp-content/upgrade-temp-backup/*
+wp-content/uploads/*
+wp-includes/*
+
+### DON'T ignore custom-made plugins
+!wp-content/plugins/
+!wp-content/plugins/ink-and-intent-core/
+!wp-content/plugins/ink-and-intent-core/**
+
+### DON'T ignore custom-made themes
+!wp-content/themes/
+!wp-content/themes/ink-and-intent/
+!wp-content/themes/ink-and-intent/**
+
+# DON'T ignore Oxygen Builder uploads
+!wp-content/uploads/
+!wp-content/uploads/oxygen/
+!wp-content/uploads/oxygen/**
+
+# WordPress root/core files
+index.php
+license.txt
+local-xdebuginfo.php
+readme.html
+wp-activate.php
+wp-blog-header.php
+wp-comments-post.php
+wp-config-sample.php
+wp-cron.php
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
