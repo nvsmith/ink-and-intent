@@ -1838,6 +1838,208 @@ padding-left: 20px;
 					margin: 0 !important;
 				}
 			}
+.saas-heading-two {
+ font-family:Source Sans Pro;
+ color:#ffffff;
+ font-size:48px;
+ line-height:1.1;
+ font-weight:700;
+ margin-bottom:0px;
+}
+@media (max-width: 479px) {
+.saas-heading-two {
+ font-size:40px;
+}
+}
+
+.saas-body-text {
+ font-family:Open Sans;
+ color:#8188a6;
+ font-size:16px;
+ font-weight:300;
+ line-height:1.6;
+ max-width:640px;
+}
+.saas-heading-one {
+ font-family:Source Sans Pro;
+ color:#313856;
+ font-size:72px;
+ font-weight:700;
+ line-height:1.1;
+}
+@media (max-width: 767px) {
+.saas-heading-one {
+ font-size:64px;
+}
+}
+
+@media (max-width: 479px) {
+.saas-heading-one {
+ font-size:48px;
+}
+}
+
+.saas-primary-button:hover{
+transform:scale(1.05,1.05); background-color:#F64E6E;
+ box-shadow:0px 20px 40px rgba(0,0,0,0.1);
+}
+.saas-primary-button {
+ font-family:Open Sans;
+ background-color:#F64E6E;
+ color:#ffffff;
+ font-size:16px;
+ letter-spacing:1px;
+ line-height:1.1;
+ text-decoration:none;
+ font-weight:700;
+ text-align:center;
+ padding-top:16px;
+ padding-bottom:16px;
+ padding-left:48px;
+ padding-right:48px;
+ border-radius:100px;
+ transition-duration:0.2s;
+ transition-timing-function:ease;
+ transition-property:all;
+ text-transform:uppercase;
+ -webkit-font-smoothing:antialiased;
+-moz-osx-font-smoothing:grayscale; border-top-style:none;
+ border-right-style:none;
+ border-bottom-style:none;
+ border-left-style:none;
+ margin-top:auto;
+background-image: linear-gradient(-90deg, #f64e6e 0%, #ff795e 98%);
+}
+.saas-divider {
+ width:30px;
+ background-color:#48C2FB;
+ min-width:30px;
+ max-width:30px;
+ height:5px;
+ min-height:5px;
+ max-height:5px;
+ border-radius:100px;
+}
+.saas-secondary-button:hover{
+ color:#ffffff;
+ background-color:#48c2fb;
+}
+.saas-secondary-button {
+ font-family:Open Sans;
+ color:#48c2fb;
+ font-size:16px;
+ font-weight:400;
+ text-decoration:none;
+ line-height:1.1;
+ letter-spacing:1px;
+ background-color:transparent;
+ border-radius:100px;
+ border-top-style:solid;
+ border-right-style:solid;
+ border-bottom-style:solid;
+ border-left-style:solid;
+ border-top-width:1px;
+ border-right-width:1px;
+ border-bottom-width:1px;
+ border-left-width:1px;
+ padding-top:15px;
+ padding-bottom:15px;
+ padding-left:47px;
+ padding-right:47px;
+ transition-duration:0.2s;
+ transition-timing-function:ease;
+ transition-property:all;
+ border-top-color:#48c2fb;
+ border-right-color:#48c2fb;
+ border-bottom-color:#48c2fb;
+ border-left-color:#48c2fb;
+ text-transform:uppercase;
+}
+.saas-home-icon-column {
+ text-align:center;
+}
+.saas-home-icon-column:not(.ct-section):not(.oxy-easy-posts),
+.saas-home-icon-column.oxy-easy-posts .oxy-posts,
+.saas-home-icon-column.ct-section .ct-section-inner-wrap{
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:flex-start;
+}
+.saas-home-icon {
+background-color: transparent;
+border: 1px solid transparent;
+padding: 48px;color: #ffffff;}.saas-home-icon 
+>svg {width: 42px;height: 42px;}.saas-home-icon {
+background-image:url(http://saas2.oxy.host/wp-content/uploads/sites/8/2017/10/Group@2x.png);background-size: cover; background-repeat:no-repeat;
+ margin-bottom:12px;
+}
+.saas-home-icon-title {
+ font-family:Source Sans Pro;
+ line-height:1.3;
+ font-size:18px;
+ font-weight:700;
+ color:#313856;
+}
+.saas-home-column-row {
+ margin-bottom:30px;
+}
+.saas-home-features-image {
+ border-radius:6px;
+}
+.saas-home-review-title {
+ color:#313856;
+ font-size:18px;
+ font-weight:700;
+ line-height:1.1;
+ margin-right:20px;
+ margin-left:20px;
+}
+.saas-home-review-image {
+ opacity:0.2;
+}
+.saas-home-review-wrapper {
+ width:100%;
+ background-color:#ffffff;
+ border-radius:6px;
+ padding-top:24px;
+ padding-bottom:24px;
+ padding-left:24px;
+ padding-right:24px;
+ height:100%;
+ box-shadow:0px 20px 40px 0px rgba(0,0,0,0.05);
+z-index: 10;
+}
+.saas-home-review-avatar {
+ width:48px;
+ border-radius:100%;
+ margin-right:12px;
+}
+.saas-home-user-wrapper {
+ text-align:left;
+ margin-bottom:12px;
+}
+.saas-home-user-wrapper:not(.ct-section):not(.oxy-easy-posts),
+.saas-home-user-wrapper.oxy-easy-posts .oxy-posts,
+.saas-home-user-wrapper.ct-section .ct-section-inner-wrap{
+display:flex;
+flex-direction:row;
+align-items:center;
+justify-content:flex-start;
+}
+.saas-home-review-stars {
+ width:120px;
+ margin-bottom:12px;
+}
+.saas-home-review-text {
+ font-family:Open Sans;
+ color:#313856;
+ font-size:14px;
+ text-align:left;
+ line-height:1.6;
+ font-weight:400;
+ font-style:italic;
+}
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
